@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pierre, feuille, ciseaux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Pierre, Feuille, Ciseaux
+        </h1>
+    </header>
+    <div class="score-board">
+        <div id="user-label" class="badge">joueur</div>
+        <div id="computer-label" class="badge">ordinateur</div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+
+    <div class="resultat">
+        <p>Pierre -> Feuille -> Ciseaux</p>
+    </div>
+
+    <div class="jeu">
+        <div class="choix" id="p">
+            <img src="./img/pierre.png" alt="">
+        </div>
+        <div class="choix" id="f">
+            <img src="./img/feuille.png" alt="">
+        </div>
+        <div class="choix" id="c">
+            <img src="./img/ciseaux.png" alt="">
+        </div>
+    </div>
+    
+    <p id="message">choisis ta main le premier arrivé à 10 gagne</p>
+
+    <script src="app.js"></script>
+</body>
+</html>
